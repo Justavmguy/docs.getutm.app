@@ -20,7 +20,9 @@ The pages are organized in order of most important information to the least impo
 **Deprecated**{: .label .label-red } Indicates sections referring to features that may be removed in a future update and should not be used.
 
 ## Questions?
-If you have questions about installation, usage, configuration, or anything else, you are invited to join the community run [Discord][1]. Please read and respect the rules!
+If you have questions about installation, usage, configuration, or anything else, join the community-run [Discord][1]. Please read and respect the rules!
+**macOS**{: .label .label-green } How to install Windows 10 and later:
+First, go to the Mac App Store and look for "CrystallFetch.app", then get a Windows 10 or 11 .iso file, and pick your CPU architecture (e.g., x86_64 or ARM64) and set up your VM the way you like. (Avoid Apple Virtualization; it will not work on Windows) Then, boot it. Once it finishes, turn off the VM and remove the .iso file, then boot up again. It may start installing again, but this is fine. Once done, you have a fully functioning Windows VM!
 
 If you found a bug or crash, please report it to [GitHub][2] after searching to make sure it has not already been reported. When submitting an issue, please fill in the template with the requested information including the [version of UTM]({% link advanced/version.md %}), your device configuration, and attach any crash logs.
 
